@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(0, 156, 247, 0.783);
+}
+.form-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.form {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+}
+
+.clas-input {
+ display: flex;
+ flex-direction: center;
+ align-items: flex-start;
+ flex: 1; 
+}
+
+.column {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ flex: 1; 
+}
+
+.column-input {
+ margin-bottom: 15px;
+ padding: 10px;
+ color:black;
+
+}
+#registrationForm button {
+  background-color: green;
+  width: 420px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+#registrationForm label {
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 5px;
+
+}
+
+#registrationForm p {
+  display: block;
+  font-size: 11px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+
+}
+
+body,
+h1,
+h2,
+p,
+label,
+button,
+input {
+  color: white;
+}
+h1, h2 {
+  text-align: center;
+  left:30%;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: pre-line;
+}
+button {
+  margin-top: 15px;
+  }
+.labelAll {
+  font-size: 10px;
+  margin-top: 20px;
+}
+.container-radio {
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  margin:  10px;
+  margin-left: -5px;
+}
+.error-border {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+  border: solid;
+}
+
