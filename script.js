@@ -144,12 +144,11 @@ document.addEventListener('DOMContentLoaded', function () {
     errorBorders.forEach(element => element.classList.remove('error-border'));
   }
 
-
   function isValidEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[A-Za-z0-9_]+(\.[A-Za-z0-9_]+)*@[A-Za-z0-9]+(\.[A-Za-z]{2,5}){1,2}$/;
     return emailRegex.test(email);
   }
-
+  
 
   function isValidPassword(password) {
     const passwordRegex = /^[A-Za-z0-9_]{8,15}$/;
